@@ -132,15 +132,7 @@ def app():
     
     if choice == 'Home':
         st.subheader("Home")
-        text = (
-            "A serious liver infection caused by the hepatitis B virus that's easily preventable by a vaccine.\n"
-            "This disease is most commonly spread by exposure to infected bodily fluids."
-            "Symptoms are variable and include yellowing of the eyes, abdominal pain and dark urine. \
-            Some people, particularly children, don't experience any symptoms. \n"
-            "In chronic cases, liver failure, cancer or scarring can occur.\
-            The condition often clears up on its own. Chronic cases require medication and possibly a liver\
-            transplant."
-        )
+
         st.write(
             """
             ### What is Hepatitis B?
